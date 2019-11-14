@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 10px 70px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+
+a {
+    width: 100px;
+    font-weight: lighter;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 0;
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+ul li:hover a {
+    background-color: rgba(5, 5, 5, 0.5);
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+.theater {
+    width: 100%;
+    height: 100vh;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.modal {
+    position: fixed;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    width: 300px;
+    height: 400px;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: 0 0 150px 200px rgba(0, 0, 0, 0.75);
+}
+
+input {
+    border: none;
+    padding: 3px;
+}
+
+
+td {
+    border: 1px solid black;
+    width: 65px;
+    height: 50px;
+    text-align: center;
+}
+
+.active {
+    background-color: red;
+}
+
+span {
+    color: black;
+    position: absolute;
+    top: 135px;
+    right: 30%;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.tatronSelect {
+    width: 400px;
+    margin: auto;
+}
+
+.filmSelect {
+    width: 400px;
+    margin: auto;
+}
+
+/*  ABOUT  */
+
+.about {
+    width: 100%;
+    display: flex;
+}
+
+.about_edit {
+    display: flex;
+}
+
+.about__1 {
+    width: 30%;
+    background-color: gold;
+    height: 100vh;
+    background-image: url("../../assets/images/a1.jpg");
+}
+
+.about__2 {
+    width: 100%;
+}
+
+h2 {
+    width: 80%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+    margin: 25px auto;
+}
+
+h1 {
+    width: 80%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    margin: 50px auto;
+}
+
+.theaterSelect {
+    border-radius: 6px;
+    border: 2px solid blue;
+    width: 400px;
+    background-color: red;
+}
+
+.link_film {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    box-sizing: border-box;
+    right: 50px;
+    border: 3px solid black;
+    color: black;
+    padding-top: 12px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+.link_film:hover {
+    background-color: green;
+    color: white;
+}
+
+.form__about {
+    width: 60%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.group {
+    width: 50%;
+    margin: auto;
+}
+
+.label {
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: rgba(8, 8, 8, 0.5);
+    outline: none;
+    margin-bottom: 10px;
+    border: 2px solid blue;
+    border-radius: 3px;
+}
+
+.button {
+    width: 400px;
+    border: none;
+    height: 40px;
+    border-radius: 3px;
+    background-color: green;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button:active {
+    background-color: red;
+}
+
+.modal__label {
+    width: 69%;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+
+.modal__input {
+    border: none;
+    padding: 5px 15px;
+}
+
+.modal__button {
+    width: 70px;
+    border: none;
+    height: 20px;
+    color: white;
+    background-color: blue;
+    margin-left: 5px;
+}
+
+.modal__button:active {
+    background-color: green;
+}
+
+.film__map {
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.film_map_p {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 10px 15px;
+    display: flex;
+}
+
+.div__i {
+    position: absolute;
+    right: 9%;
+}
+
+.div__i i {
+    padding-left: 15px;
+    cursor: pointer;
+}
